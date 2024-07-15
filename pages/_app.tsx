@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
       <Head>
-        <title>try2</title>
+        <title>検索画面1のtabletサイズ</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"

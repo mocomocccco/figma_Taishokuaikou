@@ -1,5 +1,5 @@
 {
-  "name": "try2",
+  "name": "検索画面1のtabletサイズ",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export -o build/",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   }
