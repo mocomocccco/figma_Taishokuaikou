@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
       <Head>
-        <title>画面1_検索画面_PC</title>
+        <title>画面2_検索後sp</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
