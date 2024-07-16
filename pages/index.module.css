@@ -1,0 +1,303 @@
+.tabletChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.frameChild {
+  height: 24px;
+  width: 34px;
+  position: relative;
+  object-fit: contain;
+}
+.com {
+  text-decoration: none;
+  height: 27px;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+}
+.frameParent,
+.header,
+.tabletItem {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.header,
+.tabletItem {
+  background-color: var(--white-fff);
+  align-self: stretch;
+  flex-direction: column;
+  font-family: var(--font-yugothic);
+}
+.header {
+  justify-content: center;
+  padding: 20.5px var(--padding-xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--black333333);
+}
+.tabletItem {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  height: 37px;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-5) var(--padding-xl);
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: var(--font-size-base);
+  color: var(--gyar-6a6a6a);
+  min-width: 250px;
+}
+.span {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--black333333);
+}
+.div {
+  height: 39px;
+  width: 119px;
+  position: relative;
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+.resultItem,
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wrapper {
+  background-color: var(--white-fff);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+  flex-shrink: 0;
+}
+.resultItem {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 44px;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  min-height: 904px;
+}
+.pageNumberDots {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 9px;
+}
+.pageNumbers {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  background-color: var(--gyar-6a6a6a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs-5) var(--padding-mini);
+  color: var(--white-fff);
+}
+.div1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 9px;
+}
+.pageNumbers1 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--gyar-6a6a6a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-sm);
+}
+.div2 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 9px;
+}
+.pageNumbers2 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--gyar-6a6a6a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-sm);
+}
+.pageIndicatorDots,
+.pageIndicatorDots1,
+.pageIndicatorDots2 {
+  height: 5px;
+  width: 5px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+}
+.pageIndicators {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.div3 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 9px;
+}
+.pageNumbers3 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--gyar-6a6a6a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-sm);
+}
+.pageNumbersChild {
+  width: 3px;
+  height: 6px;
+  position: relative;
+}
+.pageNumbers4,
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.pageNumbers4 {
+  width: 40px;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--gyar-6a6a6a);
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-mid);
+  height: 40px;
+}
+.pagination {
+  width: 320px;
+  flex-direction: row;
+  padding: 0 var(--padding-6xl);
+  gap: var(--gap-4xs);
+}
+.b,
+.resultItemParent {
+  font-family: var(--font-yugothic);
+  text-align: left;
+}
+.resultItemParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-sm);
+  color: var(--gyar-6a6a6a);
+}
+.b {
+  position: relative;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  color: var(--blue-289cac);
+  min-width: 90px;
+}
+.container,
+.frameGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  cursor: pointer;
+  border: 1px solid var(--blue-289cac);
+  padding: var(--padding-sm) var(--padding-xl);
+  background-color: transparent;
+  width: 320px;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+.container:hover {
+  background-color: rgba(66, 181, 199, 0.09);
+  border: 1px solid var(--color-cadetblue-100);
+  box-sizing: border-box;
+}
+.frameGroup {
+  align-self: stretch;
+  background-color: var(--white-fff);
+  flex-direction: column;
+  padding: var(--padding-xl) 0 40px;
+  gap: var(--gap-21xl);
+  flex-shrink: 0;
+}
+.tabletChild1,
+.tabletChild2,
+.tabletChild3,
+.tabletChild4,
+.tabletChild5,
+.tabletInner,
+.vectorIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.tabletChild5 {
+  z-index: 1;
+}
+.tablet {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--blue-289cac);
+  font-family: var(--font-yugothic);
+}
+@media screen and (max-width: 600px) {
+  .resultItem {
+    gap: var(--gap-xl);
+  }
+  .frameGroup {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .resultItemParent {
+    gap: var(--gap-base);
+  }
+  .container {
+    width: calc(100% - 40px);
+  }
+  .frameGroup {
+    gap: var(--gap-xl);
+  }
+}

@@ -1,0 +1,100 @@
+.frameChild {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  border: 0.4px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.div {
+  position: relative;
+  display: inline-block;
+  min-width: 11px;
+  z-index: 1;
+}
+.rectangleParent {
+  width: 19px;
+  background-color: var(--color-gainsboro);
+  border: 0.4px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-10xs) var(--padding-7xs)
+    var(--padding-9xs);
+}
+.com {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 18.4px;
+  font-weight: 500;
+  font-family: var(--font-yugothic);
+  color: var(--white-fff);
+  display: inline-block;
+  min-width: 125px;
+}
+.footerInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.div1,
+.div2 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 100px;
+}
+.div2 {
+  min-width: 40px;
+}
+.footerContent,
+.legal {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.legal {
+  flex-direction: row;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-3xs);
+  color: var(--white-fff);
+  font-family: var(--font-yugothic);
+}
+.footerContent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.div3 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 40px;
+}
+.contact,
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) 0 0;
+  font-size: var(--font-size-3xs);
+  color: var(--white-fff);
+  font-family: var(--font-yugothic);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--gyar-6a6a6a);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-7xs-2);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

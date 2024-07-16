@@ -1,0 +1,99 @@
+.contentChild {
+  height: 24px;
+  width: 34px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 20px;
+  object-fit: contain;
+}
+.com {
+  text-decoration: none;
+  height: 27px;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  white-space: nowrap;
+}
+.resultItem {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-2xs);
+}
+.a,
+.content {
+  position: relative;
+}
+.content {
+  width: 277px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.a {
+  text-decoration: underline;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 80px;
+}
+.searchButton {
+  align-self: stretch;
+  background-color: var(--gray-ededed);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-5) var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--gyar-6a6a6a);
+  font-family: var(--font-yugothic);
+}
+.span {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--black333333);
+}
+.div {
+  height: 39px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  white-space: nowrap;
+}
+.main,
+.resultCount {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.resultCount {
+  width: 159px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-7xl);
+  color: var(--blue-289cac);
+}
+.main {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--padding-3xs);
+  gap: var(--gap-3xs);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--black333333);
+  font-family: var(--font-yugothic);
+}

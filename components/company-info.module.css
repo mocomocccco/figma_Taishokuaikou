@@ -1,0 +1,96 @@
+.companyInfoChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.saraba {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 27.2px;
+  white-space: nowrap;
+}
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sarabaParent {
+  align-self: stretch;
+  height: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.b,
+.okOkOk {
+  position: relative;
+  line-height: 170%;
+}
+.okOkOk {
+  align-self: stretch;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  color: var(--gyar-6a6a6a);
+}
+.b {
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-family: var(--font-yugothic);
+  color: var(--gray-ededed);
+  text-align: left;
+  min-width: 112px;
+}
+.wrapper {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  background-color: var(--blue-289cac);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+}
+.companyInfo,
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.frameWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+}
+.companyInfo,
+.frameParent {
+  justify-content: flex-start;
+}
+.frameParent {
+  background-color: var(--white-fff);
+  align-items: flex-start;
+  padding: var(--padding-5xl) var(--padding-xl);
+  gap: var(--gap-base);
+}
+.companyInfo {
+  box-shadow: 0 4px 14px #cecece;
+  align-items: flex-end;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-yugothic);
+}

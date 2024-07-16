@@ -1,0 +1,180 @@
+.searchResult {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+}
+.pageIndicator {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 9px;
+}
+.pagination {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  background-color: var(--gyar-6a6a6a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs-5) var(--padding-mini);
+  color: var(--white-fff);
+}
+.div {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 9px;
+}
+.pagination1 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--gyar-6a6a6a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-sm);
+}
+.div1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 9px;
+}
+.pagination2 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--gyar-6a6a6a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-sm);
+}
+.pageDot,
+.pageDot1,
+.pageDot2 {
+  height: 5px;
+  width: 5px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+}
+.pageDots {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.div2 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 9px;
+}
+.pagination3 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--gyar-6a6a6a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-sm);
+}
+.paginationChild {
+  width: 3px;
+  height: 6px;
+  position: relative;
+}
+.mainResult,
+.pagination4,
+.resultNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination4 {
+  width: 40px;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--gyar-6a6a6a);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-mid);
+  height: 40px;
+}
+.mainResult,
+.resultNavigation {
+  align-self: stretch;
+}
+.resultNavigation {
+  flex-direction: row;
+  padding: 0 var(--padding-6xl);
+  gap: var(--gap-4xs);
+}
+.mainResult {
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+.b {
+  position: relative;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  font-family: var(--font-yugothic);
+  color: var(--blue-289cac);
+  text-align: left;
+  min-width: 90px;
+}
+.searchAgain {
+  cursor: pointer;
+  border: 1px solid var(--blue-289cac);
+  padding: var(--padding-sm) var(--padding-xl);
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.body,
+.contentWrapper,
+.sp {
+  display: flex;
+  flex-direction: column;
+}
+.contentWrapper {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--gyar-6a6a6a);
+  font-family: var(--font-yugothic);
+}
+.body,
+.sp {
+  background-color: var(--white-fff);
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.body {
+  align-self: stretch;
+  height: 1607px;
+  align-items: center;
+  padding: var(--padding-xl);
+}
+.sp {
+  width: 100%;
+  position: relative;
+  border: 1px solid #d1d1d1;
+  align-items: flex-start;
+  padding: var(--padding-xl) 0 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
